@@ -1,0 +1,103 @@
+version: '3.8'
+
+services:
+  web-0:
+    build: ./apartado2
+    image: practica2-apachephp
+    ports:
+      - "9000:80"
+
+  web-1:
+    image: practica2-apachephp
+    ports:
+      - "9001:80"
+
+  web-2:
+    image: practica2-apachephp
+    ports:
+      - "9002:80"
+
+  web-3:
+    image: practica2-apachephp
+    ports:
+      - "9003:80"
+
+  web-4:
+    image: practica2-apachephp
+    ports:
+      - "9004:80"
+
+  web-5:
+    image: practica2-apachephp
+    ports:
+      - "9005:80"
+
+  web-6:
+    image: practica2-apachephp
+    ports:
+      - "9006:80"
+
+  web-7:
+    image: practica2-apachephp
+    ports:
+      - "9007:80"
+
+  web-8:
+    image: practica2-apachephp
+    ports:
+      - "9008:80"
+
+  web-9:
+    image: practica2-apachephp
+    ports:
+      - "9009:80"
+
+  web-10:
+    image: practica2-apachephp
+    ports:
+      - "9010:80"
+
+  web-11:
+    image: practica2-apachephp
+    ports:
+      - "9011:80"
+
+  web-12:
+    image: practica2-apachephp
+    ports:
+      - "9012:80"
+
+  web-13:
+    image: practica2-apachephp
+    ports:
+      - "9013:80"
+
+  web-14:
+    image: practica2-apachephp
+    ports:
+      - "9014:80"
+
+  web-15:
+    image: practica2-apachephp
+    ports:
+      - "9015:80"
+
+  web-16:
+    image: practica2-apachephp
+    ports:
+      - "9016:80"
+
+  web-17:
+    image: practica2-apachephp
+    ports:
+      - "9017:80"
+
+  web-18:
+    image: practica2-apachephp
+    ports:
+      - "9018:80"
+
+  web-19:
+    image: practica2-apachephp
+    ports:
+      - "9019:80"
